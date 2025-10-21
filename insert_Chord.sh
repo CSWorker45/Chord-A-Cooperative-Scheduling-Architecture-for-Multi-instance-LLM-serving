@@ -30,6 +30,7 @@ cp "./vllm_part/scheduler_Chord.py" "$vllm_dir/core/scheduler.py"
 cp "./llumnix_part/manager_Chord.py" "$llumnix_dir/llumnix/manager.py"
 cp "./llumnix_part/instance_info_Chord.py" "$llumnix_dir/llumnix/instance_info.py"
 cp "./llumnix_part/config/default_Chord.py" "$llumnix_dir/llumnix/config/default.py"
+cp "./llumnix_part/vllm_Chord.yml" "$llumnix_dir/configs/vllm.yml"
 
 # global schedulers
 cp "./llumnix_part/global_scheduler/global_scheduler_Chord.py" "$llumnix_dir/llumnix/global_scheduler/global_scheduler.py"
